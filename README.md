@@ -1,28 +1,24 @@
 ![Logo of the project](./images/logo.sample.png)
 
-# Name of the project &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
-> Additional information or tag line
+# Challenge of front-end for Olist (by Yuri Conte)
 
-A brief description of your project, what it is used for.
+This is my project for the Olist front-end challenge.
 
 ## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+Because it is a simple project, no procedure is required for project installation.
 
-```shell
-commands here
-```
-
-Here you should say what actually happens when you execute the code above.
+Just access the root folder and run index.html
 
 ## Developing
 
 ### Built With
-List main libraries, frameworks used including versions (React, Angular etc...)
+HTML, JavaScript and CSS
 
 ### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+The only requirement to run this project is a current browser (Chrome, Safari, Firefox, Edge or IE 10)
+
+The project has not been tested on older versions of browsers
 
 
 ### Setting up Dev
