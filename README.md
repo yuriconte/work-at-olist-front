@@ -1,11 +1,9 @@
 ![Logo of the project](./images/logo.sample.png)
 
 # Challenge of front-end for Olist (by Yuri Conte)
-
 This is my project for the Olist front-end challenge.
 
 ## Installing / Getting started
-
 Because it is a simple project, no procedure is required for project installation.
 
 Just access the root folder and run index.html
@@ -20,38 +18,19 @@ The only requirement to run this project is a current browser (Chrome, Safari, F
 
 The project has not been tested on older versions of browsers
 
-
 ### Setting up Dev
-
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+To configure this project in your local environment, simply clone this repository, access the "project" folder and run the "index.html" file.
 
 ```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
+git clone https://github.com/yuriconte/work-at-olist-front.git
+cd work-at-olist-front/project/
 ```
-
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
 
 ### Building
-
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
-
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets
-executed.
+This project does not require build. Just run the .html files
 
 ### Deploying / Publishing
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+This project does not require build. Just run the .html files
 
 ```shell
 packagemanager deploy your-project -s server.com -u username -p password
