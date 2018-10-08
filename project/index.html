@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Challenge (Work at Olist - Front)">
+		<meta name="author" content="Yuri Conte">
+		<title>New Account</title>
+		<link href="assets/css/index.css" rel="stylesheet">
+		<script src="assets/js/index.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="login-box" class="login-box">
+			<div class="logotype-box">
+				<img class="logotype" src="assets/img/logo.svg" alt="Olist"></img>
+			</div>
+			<div class="title-box">
+				<span>Crie sua conta</span>
+			</div>
+			<div class="form-box">
+				<form id="new-account-form" onsubmit="return onSubmit()">
+					<div>
+						<span class="label">Nome completo</span>
+						<input type="text" id="fullName"></input>
+					</div>
+					<div class="inputGroup">
+						<span class="label">E-mail</span>
+						<input type="text" id="email"></input>
+					</div>
+					<div class="inputGroup" id="password-box">
+						<span class="label">Senha</span>
+						<input type="password" id="password"></input>
+						<div class="password-strength-box hide">
+							<div id="bar1" class="password-strength-bar"></div>
+							<div id="bar2" class="password-strength-bar"></div>
+							<div id="bar3" class="password-strength-bar"></div>
+						</div>
+						<div class="password-description-box hide">
+							<ul>
+								<li id="opt1">Pelo menos 6 caracteres</li>
+								<li id="opt2">Pelo menos 1 letra maiúscula</li>
+								<li id="opt3">Pelo menos 1 número</li>
+							</ul>  
+						</div>
+					</div>
+					<div class="inputGroup">
+						<span class="label">Confirme a sua senha</span>
+						<input type="password" id="passwordConfirm"></input>
+					</div>
+					<div class="submit-button-box">
+						<button id="submit-button" class="submit-button" type="submit" disabled>
+							<div id="text-button">Criar conta</div>
+							<div id="loading" class="hide">
+								<img src="assets/img/Ellipse.svg"></img>
+								<img src="assets/img/Ellipse-1.svg"></img>
+								<img src="assets/img/Ellipse-2.svg"></img>
+							</div>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

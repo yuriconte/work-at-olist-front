@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+html {
+	background: #E5E5E5;
+	font-family: San Francisco;
+}
+
+.success-box {
+	width: 515px;
+	height: 484px;
+	left: auto;
+	right: auto;
+	background: #FFFFFF;
+	border: 3px solid #F2F2F2;
+	margin: 80px auto 92px;
+}
+
+.logotype-box {
+	text-align: center;
+}
+
+.logotype {
+	margin-top: 60px;
+}
+
+.icon-box {
+	text-align: center;
+	margin-top:92px;
+	background: url(../img/circle.png) no-repeat center;
+    height: 84px;
+}
+
+.check-icon {
+	margin-top: 16px;
+}
+
+.title-box {
+	text-align: center;
+	line-height: 31px;
+	font-size: 22px;
+	color: #312F4F;
+	margin-top:16px;
+}
+
+.message-box {
+	text-align: center;
+	line-height: 31px;
+	font-size: 16px;
+	color: #312F4F;
+	margin: 21px auto;
+	width: 250px;
+	left: 0;
+	right: 0;
+}

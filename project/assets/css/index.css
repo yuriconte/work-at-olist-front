@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+html {
+	background: #E5E5E5;
+	font-family: San Francisco;
+}
+
+:focus {
+    outline: none;
+}
+
+.login-box {
+	width: 515px;
+	height: 746px;
+	left: auto;
+	right: auto;
+	background: #FFFFFF;
+	border: 3px solid #F2F2F2;
+	margin: 80px auto 92px;
+}
+
+.logotype-box {
+	text-align: center;
+}
+
+.logotype {
+	margin-top: 60px;
+}
+
+.title-box {
+	text-align: center;
+	line-height: 31px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #312F4F;
+	margin-top:24px;
+}
+
+.form-box {
+    margin: 35px 70px;
+}
+
+.label {
+	font-size: 14px;
+	color: #696D8C;
+	display: block;
+}
+
+
+.input-success {
+	border: 1px solid #1FE6A8 !important;
+}
+
+.input-error {
+	border: 1px solid #F79682 !important;
+}
+
+input[type='text'], input[type='password'] {
+	background: #FFFFFF;
+	border: 1px solid #B6B9D0;
+	box-sizing: border-box;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.05);
+	height: 44px;
+	margin-top: 8px;
+	width: 100%;
+	color: #312F4F;
+	padding:15px;
+	font-size: 14px;
+}
+
+form > div.inputGroup {
+	margin-top: 24px;
+}
+
+.password-strength-bar:first-child {
+	margin-left: 0px !important;
+}
+
+.password-strength-bar {
+	margin-top: 8px;
+	width: 120px;
+	height: 8px;
+	border-radius: 10px;
+	background: #EAEAF4;
+	margin-left: 7px;
+	float:left;
+}
+
+.weak {
+	background: #F79682;
+}
+
+.medium {
+	background: #F7BC1C;
+}
+
+.strong {
+	background: #1FE6A8;
+}
+
+.password-description-box {
+	padding-top: 16px;
+}
+
+ul {
+	list-style-image: url('../img/ellipse.png');
+	padding: 0 15px;
+	color: #696D8C;
+	font-size: 14px;
+}
+
+ul > .ok {
+	list-style-image: url('../img/ellipse-green.png');
+}
+
+ul > .not-ok {
+	list-style-image: url('../img/ellipse-red.png');
+}
+
+li:first-child {
+	margin-top: 0px;
+}
+
+li {
+	margin-top: 8px;
+}
+
+.submit-button-box {
+	margin-top: 32px;
+}
+
+.submit-button {
+	background: #17D499;
+	width: 100%;
+	height: 52px;
+	color: #FFFFFF;
+	border: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.submit-button:disabled {
+	cursor: not-allowed !important;
+}
+
+.hide {
+	display: none;
+}
+
+#loading img {
+	-webkit-animation-name: gifLoadingAnimation;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 0.6s;
+	-moz-animation-name: gifLoadingAnimation;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 0.6s;
+	-o-animation-name: gifLoadingAnimation;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 0.6s;
+	animation-name: gifLoadingAnimation;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 0.6s;
+}
+
+@keyframes gifLoadingAnimation {
+	0% {
+	  opacity:1;
+	}
+	14% {
+	  opacity:1;
+	}
+	56% {
+	  opacity:0;
+	}
+	59% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  #loading img:nth-of-type(1) {
+	animation-delay: 0.2s;
+  }
+  #loading img:nth-of-type(2) {
+	animation-delay: 0.4s;
+  }
+  #loading img:nth-of-type(3) {
+	animation-delay: 0.6s;
+  }
